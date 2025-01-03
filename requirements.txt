@@ -1,0 +1,9 @@
+git+https://github.com/sanjisama6287/pyrogram
+TgCrypto
+pyromod==1.5
+pymongo
+dnspython
+aiohttp
+requests
+Flask==1.1.2
+gunicorn==20.1.0
