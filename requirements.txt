@@ -1,9 +1,7 @@
-git+https://github.com/sanjisama6287/pyrogram
+https://codeload.github.com/sanjisama6287/pyrogram/zip/refs/heads/dev
 TgCrypto
-pyromod==1.5
+pyromod
 pymongo
 dnspython
 aiohttp
 requests
-Flask==1.1.2
-gunicorn==20.1.0
