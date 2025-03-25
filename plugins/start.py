@@ -46,7 +46,7 @@ async def start_command(client: Client, message: Message):
 
                 # If 30 seconds haven't passed since the last short_url call
                 if user_id in user_timeouts and (asyncio.get_event_loop().time() - user_timeouts[user_id]) < 60:
-                    await message.reply("I like your smartness, but I am smarter.")
+                    await message.reply("<b><blockquote>🚨 ʙʏᴘᴀss ᴅᴇᴛᴇᴄᴛᴇᴅ 🚨</blockquote>\n\n<blockquote>ᴀʀᴇ ᴍᴇʀᴇ ʙᴇᴛᴇ ᴋɪᴛɴɪ ʙᴀᴀʀ ʙᴏʟᴀ ʜ ʙᴀᴀᴘ ꜱᴇ ᴄʜᴀʟᴀᴋɪ ɴʜɪ ? 🥸🖕\n\nᴄʜʟ ʙᴇᴛᴇ ᴀʙ ᴡᴀᴘᴀꜱ ꜱᴇ ꜱᴏʟᴠᴇ ᴋʀɴᴇ ʟɢᴊᴀ ᴍᴇʀᴀ ᴘʏᴀʀᴀ ʙᴇᴛᴀ ᴏʀ ɪꜱꜱ ʙᴀᴀʀ ᴄʜᴀʟᴀᴋɪ ɴʜɪ !! 🌚💭</blockquote></b>")
                     return
 
             else:
