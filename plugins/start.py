@@ -167,8 +167,8 @@ async def short_url(client: Client, message: Message, base64_string):
 
         buttons = [
             [
-                InlineKeyboardButton(text="Download", url=short_link),
-                InlineKeyboardButton(text="Tutorial", url="https://t.me/+qJISIEZhhNczNjI1")
+                InlineKeyboardButton(text="ᴏᴘᴇɴ ʟɪɴᴋ", url=short_link),
+                InlineKeyboardButton(text="ᴛᴜᴛᴏʀɪᴀʟ", url="https://t.me/+ZLu08PF-JUIzMjFl")
             ],
             [
                 InlineKeyboardButton(text="Premium", callback_data="premium")
@@ -250,7 +250,7 @@ async def my_plan(client: Client, message: Message):
     if is_user_premium:
         await message.reply_text("Ads : Disable\nPremium : Unlocked\n\nNice Dude you're a premium user..!")
     else:
-        await message.reply_text("Ads : Enable\nPremium : Locked\nUnlock Premium to get more benefits\nContact - @Karasu_07..!")
+        await message.reply_text("Ads : Enable\nPremium : Locked\nUnlock Premium to get more benefits\nContact - @WhiteBeard_Sama..!")
 
 @Bot.on_message(filters.command('users') & filters.private & filters.user(OWNER_ID))
 async def get_users(client: Bot, message: Message):
